@@ -47,11 +47,7 @@ class FoodStep extends React.Component{
                                     <div>
                                         <Grid container >
                                             <Grid item>
-                                                
-                                                <video className={classes.video} controls="controls">
-                                                    <source src="{label.videoURL}" type="video/mp4"/>
-                                                </video>
-                                                
+                                                <video className={classes.video} controls="controls" src={label.videoURL}></video>
                                             </Grid>
                                             <Grid item>
                                                 <p>{label.description}</p>
